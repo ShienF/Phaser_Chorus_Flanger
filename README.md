@@ -11,3 +11,6 @@
 2. Open Fx_Project_jucer with projucer
 3. Open exporter (VisualStudio 2019)
 4. Build the project and you will get a vst3 file
+
+## Phaser
+### Parameter
