@@ -14,3 +14,17 @@
 
 ## Phaser
 ### Parameter
+![image](https://user-images.githubusercontent.com/88203221/149050438-28f6c51f-1f5b-4147-9234-00b926f029d2.png)
+* Feedback: Set the feedback from -1 to 1.
+* Rate: Set LFO frequency from 1 to 20. 
+* Depth: Set poles amplitude from 0.01 to 0.99.
+* Cutoff: Set the cutoff frequency from 0 to 20000.
+* Mix: Set the dry/wet ratio from 0% to 100%.
+
+### If you want to customize parameter
+* Choose your range corresponding to LFO frequency in Phaser.h file
+``` cpp=
+                for (int j = 0; j < numStages; ++j)
+                    filters[j]->setCutoffFrequency(frequency[k] * 2000+ centreFrequency);
+```
+ 
