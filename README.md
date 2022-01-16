@@ -31,3 +31,4 @@
                     filters[j]->setCutoffFrequency(frequency[k] * 2000+ centreFrequency);
 ```
  
+### More information about Chorus and Flanger: https://hackmd.io/fJsh9f7QTOaCGmHezlEkbQ?both
